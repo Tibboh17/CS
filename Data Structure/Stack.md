@@ -11,9 +11,9 @@
 
 # Operations on Stack
 - **push()**
-    - To insert an element into the stack
+    - Insert an element into the stack
 - **pop()**
-    - To remove an element from the stack
+    - Remove an element from the stack
 - **top()**
     - Returns the top element of the stack
 - **isEmpty()**
