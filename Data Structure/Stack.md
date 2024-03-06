@@ -1,7 +1,8 @@
 # Stack
 - A linear data structure
 - LIFO (Last In First Out)
-  ![image](https://github.com/TIBBOH17/CS/assets/121493257/b69c9ad0-8684-4b6b-9de3-71733ccedf26)
+
+![image](https://github.com/TIBBOH17/CS/assets/121493257/b69c9ad0-8684-4b6b-9de3-71733ccedf26)
 
 
 # Types of Stack
