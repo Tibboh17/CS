@@ -32,25 +32,25 @@ visited = []
 - Pop a node from the stack and inserts adjacent nodes back into the stack if the popped node is not visited, and update the list of visited nodes.
 ```python
 node = stack.pop()
-  if node not in visited:
-    visited.append(node)
-    for next_node in graph[node]:
-      stack.append(next_node)
+    if node not in visited:
+        visited.append(node)
+        for next_node in graph[node]:
+            stack.append(next_node)
 ```
 - Repeat until there are no values ​​on the stack.
 
 # Implementation of Algorithm
 ```python
 def DFS(graph, start):
-    myStack = [start]
-    myVisited = []
+    stack = [start]
+    visited = []
     
-    while myStack:
-        node = myStack.pop()
-        if node not in myVisited:
-            myVisited.append(node)
-            for nextNode in graph[node]:
-                myStack.append(nextNode)
+    while stack:
+        node = stack.pop()
+        if node not in visited:
+            visited.append(node)
+            for next_node in graph[node]:
+                stack.append(next_node)
     
-    return myVisited
+    return visited
 ```
