@@ -1,5 +1,5 @@
 # Repository for Computer Science
-- [**Data Structure**](Data_Structure)
+- [**Data Structure**](Data-Structure)
 - [**Algorithm**](Algorithm)
 
 # Information
