@@ -32,10 +32,10 @@ visited = []
 - Pop a node from the stack and inserts adjacent nodes back into the stack if the popped node is not visited, and update the list of visited nodes.
 ```python
 node = stack.pop()
-    if node not in visited:
-        visited.append(node)
-        for next_node in graph[node]:
-            stack.append(next_node)
+if node not in visited:
+    visited.append(node)
+    for next_node in graph[node]:
+        stack.append(next_node)
 ```
 - Repeat until there are no values ​​on the stack.
 
