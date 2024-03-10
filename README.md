@@ -1,5 +1,5 @@
 # Repository for Computer Science
-- [**Data Structure**](https://github.com/TIBBOH17/CS/tree/460de1cacd4f433feeec673a3d66041c579902fe/Data%20Structure)
+- [**Data Structure**](https://github.com/TIBBOH17/CS/tree/230543482968ae95d350eb216f8e236d680ed375/Data%20Structure)
 - [**Algorithm**](Algorithm)
 
 # Information
