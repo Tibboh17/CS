@@ -2,7 +2,10 @@
 - A hierarchical data structure in which a collection of elements known as nodes are connected to each other via edges.
 
 # Types of Tree
-![image](https://github.com/TIBBOH17/CS/assets/121493257/d53ee658-dfd3-41a7-a20d-e38c93221000)
+<div align="center">
+  <img src="https://github.com/TIBBOH17/CS/assets/121493257/d53ee658-dfd3-41a7-a20d-e38c93221000" width="70%">
+</div>
+
 - **Binary Tree**
     - Each node can have a maximum of two children linked to it.
 - **Tenary Tree**
@@ -11,7 +14,10 @@
     - Each node is a data structure that consists of records and a list of references to its children.
 
 # Componenets
-![image](https://github.com/TIBBOH17/CS/assets/121493257/ca52a34e-4b5e-48e6-9716-99bec4b75709)
+<div align="center">
+  <img src="https://github.com/TIBBOH17/CS/assets/121493257/ca52a34e-4b5e-48e6-9716-99bec4b75709" width="70%">
+</div>
+
 - **Root Node**
     - The topmost node of a tree or the node which does not have any parent node.
 - **Leaf Node**
