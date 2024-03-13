@@ -2,11 +2,11 @@
 - A non-linear data structure.
 - A collection of nodes connected by edges.
 
-# Componenets
-- **Vertices/Nodes**
+# Concepts of Graph
+- **Vertices (Nodes)**
   - The fundamental units of the graph.
-  - Every vertex/node can be labeled or unlabelled.
-- Edges
+  - Every vertex (node) can be labeled or unlabelled.
+- **Edges**
   - Being drawn or used to connect two nodes of the graph.
   - Connect any two nodes in any possible way.
   - Every edge can be labelled or unlabelled.
