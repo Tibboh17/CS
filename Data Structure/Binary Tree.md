@@ -12,7 +12,7 @@
 - **Skewed Binary Tree**
   - Each node has either 0 or 1 child, and all nodes are positioned to the left or the right.
  
-# Representation of Binary Tree
+# Representations of Binary Tree
 - If numbering starts from 0 to n - 1 
   - **Root Node** = 0
   - **Parent** = (p - 1) // 2 where **Child** = p
