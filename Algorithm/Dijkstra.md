@@ -1,10 +1,10 @@
 # Dijkstra
 - Algorithm for finding the shortest distance in a graph.
-- Function
+- **Function**
   - Finding the shortest distance between the starting node and all nodes.
-- Characteristic
+- **Feature**
   - Edges are all positive.
-- Time Complexity
+- **Time Complexity**
   - O(ElogV) (V: number of nodes, E: number of edges)
 
 # Implementing Process
