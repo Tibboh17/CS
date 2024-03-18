@@ -1,12 +1,12 @@
 # DFS
 - Depth-First Search
 - An algorithm that starts from the start node of the graph, determines one branch to explore, completes the search to the maximum depth, and then moves to the other branch and performs the search again.
-- Function
+- **Function**
   - Searching all the nodes.
-- Characteristic
+- **Feature**
   - Recursive function
   - Stack
-- Time Complexity
+- **Time Complexity**
   - O(V+E) (V: number of nodes, E: number of edges)
  
 # Implementing Process
