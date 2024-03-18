@@ -1,5 +1,5 @@
 # Binary Search
-- Algorithm to find the desired value when data is sorted.
+- An algorithm to find the desired value when data is sorted.
 - Compare the median value of the data with the target value you want to find and explore by reducing the size of the data by half.
 - **Function**
     - Searching the target data.
