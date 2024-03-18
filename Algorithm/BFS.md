@@ -1,12 +1,12 @@
 # BFS
 - Breadth-First Search
 - An algorithm that starts from the start node of the graph and searches by first visiting nodes that are closer to the start node.
-- Function
+- **Function**
     - Searching all the nodes.
-- Characteristic
+- **Feature**
     - FIFO Searching
     - Queue
-- Time Complexity
+- **Time Complexity**
     - O(V+E) (V: number of nodes, E: number of edges)
  
 # Implementing Process
