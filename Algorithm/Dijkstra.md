@@ -1,5 +1,5 @@
 # Dijkstra
-- Algorithm for finding the shortest distance in a graph.
+- An algorithm for finding the shortest distance in a graph.
 - **Function**
   - Finding the shortest distance between the starting node and all nodes.
 - **Feature**
