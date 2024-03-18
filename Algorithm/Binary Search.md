@@ -1,11 +1,11 @@
 # Binary Search
 - Algorithm to find the desired value when data is sorted.
 - Compare the median value of the data with the target value you want to find and explore by reducing the size of the data by half.
-- Function
+- **Function**
     - Searching the target data.
-- Characteristic
+- **Feature**
     - Target reduction method through median comparison.
-- Time Complexity
+- **Time Complexity**
     - O(logN)
 
 # Implementing Process
