@@ -58,5 +58,5 @@ def BFS(graph, start):
             for next_node in graph[node]:
                 queue.appendleft(next_node)
     
-    return myVisited
+    return visited
 ```
