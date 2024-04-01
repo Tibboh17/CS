@@ -1,20 +1,3 @@
-# Stability
-- **Stable Sort**
-  - Maintains the relative order of the items with equal sort keys.
-  - Bubble Sort, Insertion Sort, Merge Sort, etc.
-- **Unstable Sort**
-  - Which is not stable.
-  - Selection Sort, Quick Sort, etc.
- 
-# In-Place
-- **In-Place Algorithm**
-  - Sorts the input array in place, without using any additional memory. (Strict Definition)
-  - Does not use extra space for manipulating the input but may require a small though non-constant extra space for its operation. (Broad Definition)
-  - Bubble Sort, Selection Sort, Insertion Sort, Quick Sort (by Broad Definition), etc.
-- **Not In-Place Algorithm**
-  - Which is not in-place
-  - Merge Sort, etc.
- 
 # Bubble Sort
 - A method of comparing adjacent elements, performing swap operations, and sorting
 - Time Complexity: O(N^2)
@@ -49,8 +32,8 @@ def selection_sort(arr):
 def insertion_sort(arr):
     for end in range(1, len(arr)):
         i = end
-        while i > 0 and arr[i - 1] > arr[i]:
-            arr[i - 1], arr[i] = arr[i], arr[i - 1]
+        while i > 0 and arr[i-1] > arr[i]:
+            arr[i-1], arr[i] = arr[i], arr[i-1]
             i -= 1
     return arr
 ```
