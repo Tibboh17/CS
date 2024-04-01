@@ -1,0 +1,35 @@
+# Queue
+- A linear data structure
+- FIFO (First In First Out)
+
+# Concepts of Queue
+- **Front**
+    - The index where the first element is stored.
+- **Rear**
+    - The index where the last element is stored.
+
+<div align="center">
+    <img src="https://scaler.com/topics/images/queue-in-data-structure-image1.webp", width="70%">
+</div>
+
+# Operations of Queue
+- **Enqueue**
+    - Add an element to the front.
+- **Dequeue**
+    - Remove anelement from the rear.
+- **Peek**
+    - Return the front most element.
+- isFull
+    - Check if the queue is full or not.
+- isEmpty
+    - Check if the queue is empty or not.
+
+# Applications of Queue
+- **Job Scheduling**
+    - The jobs are brought in the main memory and are assigned to the processor one by one which is organized using a queue.
+- **Multiprogramming**
+    - The programs in the main memory are organized in the form of queues. 
+- **Operation on Data Structures**
+    - Certain operations like BFS (Breadth First Search), and tree traversal uses queues.
+- **Buffer space**
+    - Queues are used in networking, during the transmission of data from the source machine to the destination.
