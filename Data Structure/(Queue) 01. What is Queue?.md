@@ -19,9 +19,9 @@
     - Remove anelement from the rear.
 - **Peek**
     - Return the front most element.
-- isFull
+- **isFull**
     - Check if the queue is full or not.
-- isEmpty
+- **isEmpty**
     - Check if the queue is empty or not.
 
 # Applications of Queue
