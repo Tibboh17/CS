@@ -1,6 +1,6 @@
 # Queue
-- A linear data structure
-- FIFO (First In First Out)
+- A linear data structure.
+- FIFO (First In First Out).
 
 # Concepts of Queue
 - **Front**
