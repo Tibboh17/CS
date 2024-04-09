@@ -47,7 +47,6 @@ def quick_sort(arr):
         return arr
     
     pivot, tail = arr[0], arr[1:]
-    
     leftSide = [x for x in tail if x <= pivot]
     rightSide = [x for x in tail if x > pivot]
     
@@ -65,7 +64,6 @@ def merge_sort(arr):
     mid = len(arr) // 2
     left = merge_sort(arr[:mid])
     right = merge_sort(arr[mid:])
-
     sorted_arr = []
     i, j = 0, 0
     
@@ -85,5 +83,30 @@ def merge_sort(arr):
         sorted_arr.append(right[j])
         j += 1
         
+    return sorted_arr
+```
+
+# Counting Sort
+- A method of sorting the elements of an array by counting the number of occurrences of each unique element in the array.
+- Works well when there is a limited range of input values.
+- Time Complexity: O(n+m) (n: the size of input array, m: the size of count array)
+```python
+def counting_sort(arr):
+    max_num = max(arr)
+    count_arr = [0 for _ in range(max_num+1)]
+    sorted_arr = [0 for _ in range(len(arr))]
+    
+    for i in arr:
+        count_arr[i] = arr.count(i)
+    
+    for i in range(1, max_num+1):
+        count_arr[i] += count_arr[i-1]
+        
+    j = len(arr) - 1
+    while j >= 0:
+        sorted_arr[count_arr[arr[j]]-1] = arr[j]
+        count_arr[arr[j]] -= 1
+        j -= 1
+    
     return sorted_arr
 ```
