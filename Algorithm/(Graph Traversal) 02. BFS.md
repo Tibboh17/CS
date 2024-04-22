@@ -31,7 +31,7 @@ queue.appendleft(start)
 ```python
 visited = []
 ```
-- Pop a node from the queue and inserts adjacent nodes back into the stack if the popped node is not visited, and update the list of visited nodes.
+- Pop a node from the queue and inserts adjacent nodes back into the queue if the popped node is not visited, and update the list of visited nodes.
 ```python
 node = queue.pop()
 if not node in visited:
