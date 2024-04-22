@@ -4,9 +4,9 @@
 
 # Features of BFS
 - Searching all the nodes.
-- FIFO Searching
-- Queue
-- O(V+E) (V: number of nodes, E: number of edges)
+- FIFO Searching.
+- Queue.
+- O(V+E). (V: number of nodes, E: number of edges)
  
 # Implementing Process
 - Represent the graph as an adjacency list.
