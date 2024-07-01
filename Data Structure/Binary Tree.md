@@ -28,4 +28,4 @@
 - **Root Node** = 1
 - **Parent** = p // 2 where **Child** = p
 - **Left Child** = 2 * p where **Parent** = p
-- **Right Child** = = 2 * p + 1 where **Parent** = p
+- **Right Child** = 2 * p + 1 where **Parent** = p
