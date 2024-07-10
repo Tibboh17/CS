@@ -37,7 +37,7 @@ def bubble_sort(arr):
 
 #### Selection Sort
 - Repeatedly finds the minimum element from the unsorted part and moves it to the sorted part.
-- **Time Complexity**: O(N^2)
+- **Time Complexity**: `O(N^2)`
 ```python
 def selection_sort(arr):
     for i in range(len(arr) - 1):
@@ -51,7 +51,7 @@ def selection_sort(arr):
 
 #### Insertion Sort
 - Builds the sorted array one item at a time by inserting elements in their correct position.
-- **Time Complexity**: O(N^2)
+- **Time Complexity**: `O(N^2)`
 ```python
 def insertion_sort(arr):
     for end in range(1, len(arr)):
@@ -64,7 +64,7 @@ def insertion_sort(arr):
 
 #### Quick Sort
 - Selects a pivot and partitions the array around the pivot, then recursively sorts the partitions.
-- **Time Complexity**: O(nlogn) on average, O(N^2) in the worst case
+- **Time Complexity**: `O(NlogN)` on average, `O(N^2)` in the worst case
 ```python
 def quick_sort(arr):
     if len(arr) <= 1:
@@ -79,7 +79,7 @@ def quick_sort(arr):
 
 #### Merge Sort
 - Divides the array into halves, recursively sprts them, and then merges the sorted halves.
-- **Time Complexity**: O(nlogn)
+- **Time Complexity**: `O(NlogN)`
 ```python
 def merge_sort(arr):
     if len(arr) <= 1:
