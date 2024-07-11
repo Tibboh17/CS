@@ -1,14 +1,28 @@
 # Heap
 - The tree which is a complete binary tree.
+- Efficiently supports priority queue operations, such as finding and removing the maximum or minimum element.
+
+# Concepts of Heap
+#### Node
+- A basic building block of a heap.
+- Contains data and references (links) ro its child nodes.
+
+#### Root
+- The topmost node in the heap
+- Serves as the starting point for traversing the heap.
+- In a max heap, the root is the maximum element: in a min heap, the root is the minimum element.
+
+#### Leaf
+- A node with no child nodes.
+- The leaves are the nodes at the bottom level of the heap.
 
 # Types of Heap
-<div align="center">
-  <img src="https://github.com/TIBBOH17/CS/assets/121493257/3b064317-3155-4beb-afe6-590aeb5d670a" width="70%">
-</div>
+#### Max Heap
+- The value of the root node is the greatest among all its child nodes.
+- Every value of the parent node is equal to or greater than the value of its child node.
+- Useful for algorithms that need to repeatedly access the maximum element.
 
-- **Max Heap**
-  - The value of the root node is the greatest among all its child nodes.
-  - Every value of the parent node is equal to or greater than the value of its child node.
-- **Min Heap**
-  - The value of the root node is the smallest among all its child nodes.
-  - Every value of the parent node is equal to or less than the value of its child node.
+#### Min Heap
+- The value of the root node is the smallest among all its child nodes.
+- Every value of the parent node is equal to or less than the value of its child node.
+- Useful for algorithms that need to repeatedly access the minimum element.
