@@ -58,7 +58,7 @@ def insertion_sort(arr):
         i = end
         while i > 0 and arr[i - 1] > arr[i]:
             arr[i - 1], arr[i] = arr[i], arr[i - 1]
-            arr -= 1
+            i -= 1
     return arr
 ```
 
