@@ -117,10 +117,10 @@ def merge_sort(arr):
 #### Data Organization
 - Helps in arranging data for better readability and organization.
 
-#### Algorithms
+#### Algorithm
 - Many algorithms like graph algorithms rely on sorting as a subroutine.
 
-#### Databases
+#### Database
 - Sorting is crucial for query optimization and efficient data retrieval.
 
 #### Machine Learning
