@@ -70,7 +70,7 @@ def quick_sort(arr):
     if len(arr) <= 1:
         return arr
 
-    pivot, tail = arr[0], arr[1]
+    pivot, tail = arr[0], arr[1:]
     left_side = [x for x in tail if x <= pivot]
     right_side = [x for x in tail if x > pivot]
     
