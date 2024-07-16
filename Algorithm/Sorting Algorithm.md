@@ -78,7 +78,7 @@ def quick_sort(arr):
 ```
 
 #### Merge Sort
-- Divides the array into halves, recursively sprts them, and then merges the sorted halves.
+- Divides the array into halves, recursively sorts them, and then merges the sorted halves.
 - **Time Complexity**: `O(NlogN)`
 ```python
 def merge_sort(arr):
